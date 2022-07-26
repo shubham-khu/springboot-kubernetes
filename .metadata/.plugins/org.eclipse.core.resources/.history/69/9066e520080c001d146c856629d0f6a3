@@ -1,0 +1,9 @@
+package co.io.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import co.io.domain.Bookmark;
+
+public interface BookmarkRepository extends JpaRepository<Bookmark	, Long>{
+
+}

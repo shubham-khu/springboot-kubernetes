@@ -1,0 +1,5 @@
+package co.io.repository;
+
+public class BookmarkRepository {
+
+}

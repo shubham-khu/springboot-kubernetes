@@ -1,0 +1,24 @@
+package co.io.controller;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import co.io.domain.Bookmark;
+import co.io.service.BookmarkService;
+
+@RestController
+@RequestMapping("/api")
+public class BookmarksController {
+	
+	private BookmarkService bookmarkService;	
+	
+	@GetMapping("/bookmarks")
+	public List<Bookmark> getBookmarks()
+	{
+		return bookmarkService.getBookamrks();
+	}
+
+}

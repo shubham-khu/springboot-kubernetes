@@ -1,0 +1,5 @@
+package co.io.service;
+
+public class BookmarkService {
+
+}
