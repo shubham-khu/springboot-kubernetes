@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import co.io.domain.Bookmark;
 
-
+@Repository
 public interface BookmarkRepository extends JpaRepository<Bookmark	, Long>{
 
 }
